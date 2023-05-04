@@ -36,7 +36,7 @@ if (x !==0 ) {
 // (в першу, другу, третю или четверту частину години).
 
 let time = +prompt('Введіть число від 1 до 59')
-if (time<15) {
+if (time<15 && time>0) {
     document.write('<div>Перша чверть</div>')
 }else if (time <30) {
     document.write('<div>Друга чверть</div>')
@@ -51,7 +51,7 @@ if (time<15) {
 // У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
 
 let day = +prompt('Введіть день (від 1 до 31) ')
-if (day<11) {
+if (day<11 && day>0) {
     document.write('<div>Перша декада</div>')
 }else if (day <21) {
     document.write('<div>Друга декада</div>')
@@ -88,3 +88,18 @@ switch (week) {
         document.write('<div>Sunday</div>')
         break;
 }
+
+
+// Користувач вводить або має два числа.
+// Потрібно знайти та вивести максимальне число з тих двох .
+// Також потрібно врахувати коли введені рівні числа.
+
+let y = +prompt('Введіть перше число')
+let z = +prompt('Введіть друге число')
+ if(y>z) {
+     document.write(y)
+ }else if(z>y) {
+     document.write(z)
+ }else if(y===z) {
+     document.write('Числа рівні')
+ }
