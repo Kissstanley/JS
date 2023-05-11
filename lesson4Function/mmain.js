@@ -76,5 +76,5 @@ function exchange(sumUAH, currencyValues, exchangeCurrency) {
     return res;
 }
 
-exchange(324325,[{currency:'USD',value:36},{currency:'EUR',value:38}],'EUR');
+exchange(32325,[{currency:'USD',value:36},{currency:'EUR',value:38}],'EUR');
 
