@@ -50,3 +50,5 @@ function printText(text){
 printText('Hello')
 printText('My name is Ibrahim and today we are learning c++ and even trying to create own array and will push some items into him')
 printText('korn and kiss')
+
+
