@@ -31,15 +31,15 @@ let list = (txt)=> document.write(`<ul><li>${txt}</li><li>${txt}</li><li>${txt}<
 list('let`s go')
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
-let cleverList = (any,x)=>{
+let cleverList = (any,limit)=>{
     document.write(`<div>`)
-    for (let i = 0; i <= any.length; i++) {
+    for (let i = 0; i <=limit; i++) {
         document.write(`<li>${any}</li>`)
     }
     document.write(`</div>`)
 }
 
-cleverList('Done',5)
+cleverList('Done',7)
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
 document.write('_______________')
