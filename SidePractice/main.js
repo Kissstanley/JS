@@ -286,9 +286,9 @@
 // split(36,45)
 
 //
-// let arr=[]
-// let set=[34,54,13]
-// let middle = [23,563,213]
+let arr=[]
+let set=[34,54,13]
+let middle = [23,563,213]
 // - створити функцію  яка приймає два масиви та скаладає значення елементів з однаковими індексами  та повертає новий результуючий масив.
 //     EXAMPLE:
 // [1,2,3,4]
@@ -356,18 +356,82 @@ let users=[
 //     - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
-function keyValuePrint(array) {
-    let values = [];
+// function keyValuePrint(array) {
+//     let values = [];
+//
+//     for (let i = 0; i < array.length; i++) {
+//         let object = array[i];
+//         for (let key in object) {
+//             if (object.hasOwnProperty(key)) {
+//                 values.push(object[key]);
+//             }
+//         }
+//     }
+//     console.log(values)
+//     return values;
+// }
+// keyValuePrint(users)
 
-    for (let i = 0; i < array.length; i++) {
-        let object = array[i];
-        for (let key in object) {
-            if (object.hasOwnProperty(key)) {
-                values.push(object[key]);
-            }
+
+// створити функцію яка повертає найбільше число з масиву
+// let max = (arr)=>{
+//     let maximum=arr[0];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i]>maximum){
+//             maximum=arr[i]
+//         }
+//
+//     }
+//     console.log(maximum)
+// }
+// max(middle)
+// max(set)
+//
+//
+// - створити функцію яка повертає найменьше число з масиву
+//
+// let min = (arr)=>{
+//     let minimum=arr[0];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i]<minimum){
+//             minimum=arr[i]
+//         }
+//
+//     }
+//     console.log(minimum)
+// }
+// min(middle)
+// min(set)
+
+
+
+// - Дано натуральное число n. Выведите все числа от 1 до n.
+// let queue=(n)=>{
+//     for (let i = 1; i < n; i++) {
+//         console.log(i)
+//     }
+// }
+//
+// queue(6)
+
+// - Даны два целых числа A и В . Выведите все числа от A до B включительно, в порядке возрастания, если A < B, или в порядке убывания в противном случае.
+
+let incOrDecrease=(a,b)=>{
+    if (a<b){
+        for (let i = a; i  < b;  i++){
+            console.log(i)
         }
     }
-    console.log(values)
-    return values;
+    else if (a> b){
+        for (let  i = a; i >b; i-- ){
+            console.log(i)
+        }
+    } else if (a===b){
+        console.error('FALSE')
+    }
+
 }
-keyValuePrint(users)
+
+
+incOrDecrease(11,11)
+
