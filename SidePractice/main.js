@@ -416,22 +416,98 @@ let users=[
 
 // - Даны два целых числа A и В . Выведите все числа от A до B включительно, в порядке возрастания, если A < B, или в порядке убывания в противном случае.
 
-let incOrDecrease=(a,b)=>{
-    if (a<b){
-        for (let i = a; i  < b;  i++){
-            console.log(i)
-        }
-    }
-    else if (a> b){
-        for (let  i = a; i >b; i-- ){
-            console.log(i)
-        }
-    } else if (a===b){
-        console.error('FALSE')
-    }
+// let incOrDecrease=(a,b)=>{
+//     if (a<b){
+//         for (let i = a; i  < b;  i++){
+//             console.log(i)
+//         }
+//     }
+//     else if (a> b){
+//         for (let  i = a; i >b; i-- ){
+//             console.log(i)
+//         }
+//     } else if (a===b){
+//         console.error('FALSE')
+//     }
+//
+// }
+//
+//
+// incOrDecrease(11,11)
+//
 
+
+//     - Напишите функцию cutString(str, n), которая делит строку на подстроки, состоящие из n символов.
+// document.writeln(cutString('наслаждение',3)) // [нас,лаж,ден,ие]
+let asd='Great job Mark'
+// let cutString=(str, n)=> {
+//     if (typeof str !== 'string' || typeof n !== 'number' || n < 0) {
+//         console.log('неправильне значення');
+//     }
+//
+//     let result = [];
+//
+//     for (let i = 0; i < str.length; i +=n) {
+//         result.push(str.slice(i, i + n));
+//     }
+//
+//     console.log(result);
+// }
+// cutString(asd,3)
+// - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
+//     let str = 'Каждый охотник желает знать';
+// document.writel
+//n(delete_characters(str, 7)); // Каждый
+//
+let delete_characters=(str,n)=>str.substring(0,n);
+console.log(delete_characters(asd,6))
+
+// - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
+//     let str = "HTML JavaScript PHP";
+// document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'
+//
+let str = "HTML JavaScript PHP"
+let qwe='okey'
+let grey='hello'
+let insert_dash=(str)=>str.toUpperCase().replaceAll(' ','-');
+
+console.log(insert_dash(str))
+// - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.
+let re=(str)=>str[0].toUpperCase().concat(str).replace(str[0],'');
+console.log(re(qwe))
+console.log(re(grey));
+// - Дано список імен.
+let n1 = 'Harry..Potter'
+let n2 = 'Ron---Whisley'
+let n3 = 'Hermione__Granger'
+// Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
+// let n1 = 'Harry Potter'
+// let n2 = 'Ron Whisley'
+// let n3 = 'Hermione Granger'
+let normal=(str)=>{
+    let newStr=str;
+    console.log(newStr
+        .replace('.', ' ')
+        .replace('-', ' ')
+        .replace('_', ' ')
+        .replaceAll('.', '')
+        .replaceAll('-', '')
+        .replaceAll('_', ''));
+    return newStr
 }
 
+normal(n1)
+normal(n2)
+normal(n3)
 
-incOrDecrease(11,11)
-
+//     - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
+// - створити (або згенерувати, за допомог,и попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
+// - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. відфільтрувати  його за допомоги filter, залишивши тільки парні числа (без 0!)
+//
+// - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
+// - Створити функцію-валідатор для адрес електронної пошти. Перевірка повинна включати в себе :данні до знака равлика(@), наявність равлика, крапку яка знаходиться не меньше ніж на 2 символ далі після равлика, функція не чутлива до регістру (some@email.com,SOME@EMAIL.COM,some@EMAIL.com, і тд - однакові значення)
+// Протестувати на значеннях
+// someemail@gmail.com
+// someeMAIL@gmail.com
+// someeMAIL@i.ua
+// some.email@gmail.com
