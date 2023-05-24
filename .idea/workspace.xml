@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db14a346-405c-41ac-80df-931abe5fe249" name="Changes" comment="complete task 6">
+      <change afterPath="$PROJECT_DIR$/lesson8ConstrAndProto/les8work1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8ConstrAndProto/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SidePractice/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/SidePractice/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6Methods/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6Methods/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2PKNXJWFTFQEteV9dWD8HSoO1Nc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,6 +63,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -89,7 +96,14 @@
       <workItem from="1684422246006" duration="5748000" />
       <workItem from="1684441306127" duration="2200000" />
       <workItem from="1684509306099" duration="1422000" />
-      <workItem from="1684573503318" duration="10838000" />
+      <workItem from="1684573503318" duration="21290000" />
+      <workItem from="1684762001190" duration="5371000" />
+      <workItem from="1684792477401" duration="3512000" />
+      <workItem from="1684831750935" duration="1321000" />
+      <workItem from="1684845857583" duration="3000" />
+      <workItem from="1684845908768" duration="2085000" />
+      <workItem from="1684928159389" duration="846000" />
+      <workItem from="1684962738639" duration="6335000" />
     </task>
     <task id="LOCAL-00001" summary="complete task 2">
       <created>1683206218724</created>
@@ -161,11 +175,29 @@
       <option name="project" value="LOCAL" />
       <updated>1684428033025</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="complete task 6">
+      <created>1684617590558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684617590559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete task 2" />
