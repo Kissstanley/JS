@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>part2task3</title>
+</head>
+<body>
+
+
+<script>
+
+    let str  = localStorage.getItem('sessions')
+    let sessions =  JSON.parse(str) || [];
+    for (const session of sessions) {
+        let inter=JSON.stringify(session)
+        const div=document.createElement('div')
+        div.innerText=inter
+
+        document.body.appendChild(div)
+    }
+</script>
+</body>
+</html>

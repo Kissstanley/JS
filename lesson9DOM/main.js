@@ -133,12 +133,6 @@ for (const simpson of simpsons) {
 
 
 // =========================
-//     Цикл в циклі
-// - Є масив coursesArray котрий лежить в arrays.js (на цей момент ви вже знаєте де він знаходиться)
-//
-// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись
-// значення окремих властивостей, для властивості modules зробити список з елементами
-// Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
 let coursesArray = [
     {
         title: 'JavaScript Complex',
@@ -208,6 +202,13 @@ let coursesArray = [
         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
     }
 ];
+//     Цикл в циклі
+// - Є масив coursesArray котрий лежить в arrays.js (на цей момент ви вже знаєте де він знаходиться)
+//
+// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись
+// значення окремих властивостей, для властивості modules зробити список з елементами
+// Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
+
 let modulesList=coursesArray.map(value => value.modules);
 console.log(modulesList);
 for (const part of coursesArray) {
@@ -243,7 +244,14 @@ for (const part of coursesArray) {
         div.appendChild(ul)
     }
 
-    
+
 
 
 }
+
+
+
+
+
+
+

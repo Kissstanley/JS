@@ -55,14 +55,58 @@
 // console.log(user1);
 // In this kata you will create a function that takes a list of non-negative integers
 // and strings and returns a new list with the strings filtered out.
-let arr1=[1,2,'a','b']
-let arr2=[1,'a','b',0,15]
-let arr3=[1,2,'aasf','1','123',123]
-
-function arrayFilter(value){
-    return typeof value!=='string'
+let user1={
+    id: 1,
+    name: 'Leanne Graham',
+    username: 'Bret',
+    email: 'gerjlf@gmail.com',
+address: {
+    street: 'Kulas Light',
+        suite: 'Apt. 556',
+        city: 'Gwenborough',
+        zipcode: '92998-3874',
+        geo: {
+        lat: '-37.3159',
+            lng: '81.1496'
+        }
 }
-let filtered=(arr)=>arr.filter(arrayFilter)
-console.log(filtered(arr1));
-console.log(filtered(arr2));
-console.log(filtered(arr3));
+}
+for (const user1Key in user1) {
+    console.log(user1Key);
+}
+let modulesList=coursesArray.map(value => value.modules);
+console.log(modulesList);
+for (const part of coursesArray) {
+    let div=document.createElement("div");
+    div.classList.add('box')
+    div.style.border='solid green 10px'
+    div.style.width='500px'
+    div.style.height='500px'
+    div.style.background='purple'
+    div.style.marginBottom='20px'
+    document.body.appendChild(div)
+    let h1 =document.createElement("h1")
+    h1.innerText=`${part.title}`
+    h1.style.marginLeft='25%'
+    div.appendChild(h1)
+    let divSecond=document.createElement("div");
+    divSecond.style.display='flex'
+    divSecond.style.justifyContent='center'
+
+    div.appendChild(divSecond)
+    let h2 =document.createElement("h2")
+    h2.innerText=`monthDuration:${part.monthDuration}`
+    h2.style.marginRight='60px'
+    divSecond.appendChild(h2)
+    let h4=document.createElement("h4")
+    h4.innerText=`hourDuration:${part.hourDuration}`
+    divSecond.appendChild(h4)
+    let ul = document.createElement("ul")
+    for (const element of part.modules) {
+        let li=document.createElement("li")
+        li.innerText=`${element}`
+        ul.appendChild(li)
+        div.appendChild(ul)
+    }
+
+}
