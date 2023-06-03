@@ -12,6 +12,22 @@
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні
 //     на кнопку зчитати інформацію з інпуту та перевірити вік
 //     чи меньше він ніж 18, та повідомити про це користувача
+
+const box=document.createElement("div")
+const br=document.createElement('br')
+const field=document.createElement("input")
+const checker=document.createElement("button")
+checker.innerText='CHECK'
+field.getAttribute('type')
+checker.onclick=()=>{
+    if (field.value<18){
+        alert('NO')
+    }else {
+        alert('U are welcome')
+    }
+}
+box.append(field,br,checker)
+document.body.appendChild(box)
 </script>
 </body>
 </html>

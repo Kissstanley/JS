@@ -5,12 +5,38 @@
     <title>Title</title>
 </head>
 <body>
-
+<form name="format">
+    <input type="number" name="rw">
+    <br>
+    <input type="number" name="col">
+    <br>
+    <input type="text" name="text">
+    <button>read</button>
+</form>
 
 <script>
 // *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 // При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
+
+const format=document.forms.format;
+format.onsubmit=function (e){
+    e.preventDefault();
+    let table=document.createElement('table');
+    for (let i = 0; i < this.rw.value; i++) {
+        let rw=document.createElement('tr');
+        for (let i = 0; i < this.col.value; i++) {
+            let col=document.createElement('td');
+            col.innerText=this.text.value
+            col.style.background='green'
+
+            rw.appendChild(col)
+        }
+        table.appendChild(rw)
+    }
+    document.body.appendChild(table)
+}
+
 </script>
 </body>
 </html>

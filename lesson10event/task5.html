@@ -5,11 +5,20 @@
     <title>Title</title>
 </head>
 <body>
-
+<div id="text">
+</div>
+<button id="button">Push me</button>
 
 <script>
 // - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript,
 // зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
+
+let div = document.getElementById('text')
+let button = document.getElementById('button')
+div.innerText='jasgjdsmofdsgjdsngjsjodjsajgnjdsangjinsdininsjacmjiajvnijdanvjisfnvjifdj vjiefvenvjinfdjvnvvrsf'
+button.onclick=function (){
+    div.style.display='none'
+}
 </script>
 </body>
 </html>

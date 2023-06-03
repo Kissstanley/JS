@@ -5,13 +5,27 @@
     <title>Title</title>
 </head>
 <body>
-
+<p id="count-box">100</p>
 
 <script>
     // *** (подібне було вище, але...будьте уважні в другій частині) створити сторінку з довільним блоком, в середині якого є значення "100грн"
     // при перезавантаженні сторінки до значаення додається по 10грн, але !!!
     //     зміна ціни відбувається тільки на перезавантаження, які відбулись пізніше ніж 10 секунд після попереднього.
     //     При перезавантаженні, яке відбулось раніше ніж минуло 10 секунд - нічого не відбувається
+    const time=localStorage.getItem('time');
+    let count=JSON.parse(localStorage.getItem('count'))||100;
+    const box=document.getElementById('count-box');
+    const current=new Date().getTime();
+
+    if(time&&current-time>10000){
+        count +=10
+        localStorage.setItem('count',count.toString())
+    }
+
+    box.innerText=count
+    localStorage.setItem('time',current.toString())
+
+
 </script>
 </body>
 </html>

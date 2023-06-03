@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<button id="prev">Prev</button>
+<button id="prev" disabled="disabled">Prev</button>
 <button id="next">Next</button>
 <div id="box" style="border: 1px solid green"></div>
 
@@ -716,7 +716,9 @@ const leaf=function (page,limit=10){
     let box=document.getElementById('box');
     let start = (page-1) * limit;
     let end = page * limit;
-
+    if (page>1){
+        prev.removeAttribute('disabled')
+    }
     if(end>locations.length){
         end=locations.length;
     }
