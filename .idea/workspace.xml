@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db14a346-405c-41ac-80df-931abe5fe249" name="Changes" comment="complete more than half of task10">
+    <list default="true" id="db14a346-405c-41ac-80df-931abe5fe249" name="Changes" comment="complete task10">
+      <change afterPath="$PROJECT_DIR$/lesson12reg&amp;&amp;http/users_less12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10event/task4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10event/task4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10event/task5.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10event/task5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10event/task6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10event/task6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10event/task7.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10event/task7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10event/task8.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10event/task8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/les3work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/les3work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/work1less3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/work1less3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6Methods/lesson6wor.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/lesson6wor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6Methods/lesson6work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/lesson6work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6Methods/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6Methods/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +120,8 @@
       <workItem from="1685567968407" duration="1243000" />
       <workItem from="1685635566317" duration="10598000" />
       <workItem from="1685715272210" duration="13194000" />
-      <workItem from="1685809792437" duration="7278000" />
+      <workItem from="1685809792437" duration="7684000" />
+      <workItem from="1686171799975" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="complete task 2">
       <created>1683206218724</created>
@@ -230,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685738360946</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="complete task10">
+      <created>1685829505312</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685829505312</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +268,7 @@
     <MESSAGE value="complete task 8 part 2" />
     <MESSAGE value="complete task 9 part 1" />
     <MESSAGE value="complete more than half of task10" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete more than half of task10" />
+    <MESSAGE value="complete task10" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete task10" />
   </component>
 </project>
