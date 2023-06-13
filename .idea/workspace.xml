@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db14a346-405c-41ac-80df-931abe5fe249" name="Changes" comment="complete task10">
-      <change afterPath="$PROJECT_DIR$/lesson12reg&amp;&amp;http/users_less12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12reg&amp;&amp;http/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/user-Info/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/user-Info/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/user_post-details/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/user_post-details/user-post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/users-Set/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/users-Set/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_project/users-Set/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/les3work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/les3work2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/work1less3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3Loops/work1less3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6Methods/lesson6wor.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/lesson6wor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6Methods/lesson6work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/lesson6work2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6Methods/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6Methods/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6MethodsOfArr/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,22 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -121,7 +122,9 @@
       <workItem from="1685635566317" duration="10598000" />
       <workItem from="1685715272210" duration="13194000" />
       <workItem from="1685809792437" duration="7684000" />
-      <workItem from="1686171799975" duration="4182000" />
+      <workItem from="1686171799975" duration="4567000" />
+      <workItem from="1686234625760" duration="1301000" />
+      <workItem from="1686486048932" duration="9986000" />
     </task>
     <task id="LOCAL-00001" summary="complete task 2">
       <created>1683206218724</created>
@@ -242,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685829505312</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="complete task10">
+      <created>1686176930781</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686176930781</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    fetch('http://jsonplaceholder.typicode.com/users')
+        .then(response=>response.json())
+        .then(json=> console.log(json))
+    const a=document.createElement('a')
+    a.href=`user-details.html?id=${user.id}`
+    a.innerText='info'
+    document.body.appendChild(a)
+</script>
+
+
+</body>
+</html>
