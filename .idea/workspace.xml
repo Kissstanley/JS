@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db14a346-405c-41ac-80df-931abe5fe249" name="Changes" comment="complete task10">
-      <change afterPath="$PROJECT_DIR$/lesson12reg&amp;&amp;http/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project/user-Info/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project/user-Info/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project/user_post-details/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project/user_post-details/user-post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project/users-Set/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project/users-Set/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project/users-Set/users.html" afterDir="false" />
+    <list default="true" id="db14a346-405c-41ac-80df-931abe5fe249" name="Changes" comment="half path of miniProject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_project/user-Info/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project/user-Info/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_project/user-Info/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project/user-Info/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +118,7 @@
       <workItem from="1685809792437" duration="7684000" />
       <workItem from="1686171799975" duration="4567000" />
       <workItem from="1686234625760" duration="1301000" />
-      <workItem from="1686486048932" duration="9986000" />
+      <workItem from="1686486048932" duration="14961000" />
     </task>
     <task id="LOCAL-00001" summary="complete task 2">
       <created>1683206218724</created>
@@ -252,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686176930781</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="half path of miniProject">
+      <created>1686648674551</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686648674551</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +280,7 @@
     <MESSAGE value="complete task 9 part 1" />
     <MESSAGE value="complete more than half of task10" />
     <MESSAGE value="complete task10" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete task10" />
+    <MESSAGE value="half path of miniProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="half path of miniProject" />
   </component>
 </project>
