@@ -7,6 +7,9 @@
 
 
 
+//ПОЧАТКОВА СТОРІНКА users-Set
+
+
 const userId=new URL(location.href).searchParams.get('userId')
 const back=document.getElementsByClassName('back')[0]
 back.onclick=()=>{
