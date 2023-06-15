@@ -8,12 +8,14 @@
             const field=document.getElementsByClassName('box')[0]
             for (const user of users) {
                 const block=document.createElement('div')
-                block.innerText=`№${user.id} ${user.name}`
+                block.innerHTML=`<div>№${user.id} ${user.name}</div>`
+                block.classList.add("user")
+                block.style.width='50%'
                 field.appendChild(block)
 
                 const a=document.createElement('a')
                 a.innerText=`Show info about ${user.name}`
-                field.appendChild(a)
+                block.appendChild(a)
 
                 a.onclick=()=>{
                     location.href=`../user-Info/index.html?userId=${user.id}`

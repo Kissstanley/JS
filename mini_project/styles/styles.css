@@ -1,0 +1,75 @@
+body{
+    color: white;
+    background-color: black;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+}
+
+.head{
+    margin-left: 35%;
+}
+
+a{
+    cursor: pointer;
+    color: cornflowerblue;
+}
+.back{
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.back:hover{
+    transition: 0.5s;
+    scale: 0.9;
+    background-color: midnightblue;
+
+}
+.btn{
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: rebeccapurple;
+}
+.btn:hover{
+    transition: 0.5s;
+    scale: 0.9;
+    background-color: darkred;
+}
+
+.box{
+    display: block;
+    width: 100%;
+}
+.user{
+    display: inline-block;
+    width: 50%;
+    margin-top: 3vh;
+
+}
+.content{
+    display: block;
+    width: 100vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.post{
+    margin-bottom: 3vh;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.feedback{
+    display: block;
+    width: 100vw;
+}
+
+.answer{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
